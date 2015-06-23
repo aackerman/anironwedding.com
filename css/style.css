@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'thirsty-script';
+  src: url('../fonts/ts.woff') format('woff');
+}
+
+.u-textAlignCenter {
+	text-align: center;
+}
+
+.u-centerBlock {
+	margin: 0 auto;
+}
+
+.u-transformUpsideDown {
+	transform: rotate(180deg);
+}
+
+.thirstyFont {
+	font-family: 'thirsty-script', serif;
+	color: #d05a30;
+	font-size: 64px;
+}
