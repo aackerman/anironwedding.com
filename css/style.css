@@ -39,6 +39,10 @@ html, body {
   height: 300px;
 }
 
+.mapFrame {
+  width: 100%;
+}
+
 .containerBox {
   margin: 40px auto;
 }
@@ -52,7 +56,7 @@ html, body {
 .mainContainerBox {
   margin: 0 auto;
   padding: 0 20px;
-  width: 440px;
+  width: 320;
 }
 
 body {
