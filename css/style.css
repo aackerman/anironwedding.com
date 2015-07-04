@@ -37,6 +37,12 @@ html, body {
   overflow: hidden;
   position:relative;
   height: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.formContainer {
+  max-width: 500px;
 }
 
 .mapFrame {
