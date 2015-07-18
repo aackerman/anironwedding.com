@@ -23,7 +23,7 @@
     var childRef = Fb.child(generateRandomString(20));
 
     childRef.set({
-      attending: Boolean(document.querySelector('input[name=attending]').value),
+      decliners: document.querySelector('textarea[name=decliners]').value,
       attendees: document.querySelector('textarea[name=attendees]').value,
       dietaryNeeds: document.querySelector('textarea[name=dietaryNeeds]').value
     }, function(err){
